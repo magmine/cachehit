@@ -21,8 +21,8 @@
 title: Cache hit
 email: amine_mag@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey! in this blog I will share my jurney into software engineering while working with C++ and things
-  I learn in the meantime like computer architecture and optimization techniques.
+  Hey! In this blog, I will share my journey into software engineering while working with
+  C++ and things I learn in the meantime like computer architecture and optimization techniques.
 baseurl: "/cachehit" # the subpath of your site, e.g. /blog
 url: "https://magmine.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mmaghous
