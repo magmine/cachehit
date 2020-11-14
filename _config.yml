@@ -27,9 +27,11 @@ baseurl: "/cachehit" # the subpath of your site, e.g. /blog
 url: "https://magmine.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mmaghous
 github_username:  magmine
+author: Mohammed Amine MAGHOUS
 
 # Build settings
-theme: minima
+# I removed minima theme to make it a regular theme (non auto)
+#theme: minima
 #theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
