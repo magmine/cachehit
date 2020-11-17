@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: CV
+title: CV
 date:   2020-11-17 02:50:28 +0100
 categories: author
 ---
