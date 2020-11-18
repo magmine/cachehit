@@ -3,6 +3,7 @@ layout: post
 title:  "Cross platform code and macros"
 date:   2020-11-16 16:10:28 +0100
 categories: Computer-science
+desc: "This is my first post"
 ---
 
 We usually hear the word *Cross platform* which means that the code can be compiled and executed in multiple platforms, this can be acheived by using a cross platform langauge like Java.
