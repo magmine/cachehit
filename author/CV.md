@@ -5,6 +5,14 @@ date:   2020-11-17 02:50:28 +0100
 categories: author
 ---
 
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> <a href="https://drive.google.com/u/0/uc?id=13BETFXrxDb0iXKIH_BX62XiHZlR9W2iK&export=download" download="CV_MAGHOUS">
+    Download CV
+</a> </button>
+
 <center><img src="../images/profile.png" width="160" height="200"   alt="Avatar"></center>
 
 <center> <h2>Mohammed Amine Maghous</h2> </center>
