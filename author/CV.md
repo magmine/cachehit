@@ -5,8 +5,7 @@ date:   2020-11-17 02:50:28 +0100
 categories: author
 ---
 
-<center><img src="https://media-exp1.licdn.com/dms/image/C4D03AQHF_TrY5VI8dg/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=2m1AVkeyVEie3ueJEAAaMKZDLW19VAdVBX9YnKWth_k"></center>
-<!-- ![header](https://media-exp1.licdn.com/dms/image/C4D03AQHF_TrY5VI8dg/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=2m1AVkeyVEie3ueJEAAaMKZDLW19VAdVBX9YnKWth_k) -->
+<center><img src="../images/profile.png" width="160" height="200"   alt="Avatar"></center>
 
 <center> <h2>Mohammed Amine Maghous</h2> </center>
 ---------------------------
@@ -17,16 +16,14 @@ I'm a C++ software engineer, passionate about performance, computer architecture
 ## Work experience
 
 From February 2020 to August 2020
-* Research assistant / C++ software engineering intern *ORACLE LABS* **Casablanca**, **Morocco**
+* Research assistant / C++ software engineering intern **ORACLE LABS** *Casablanca*, *Morocco*
 
     I worked on a highly parallel and distributed graph processing system,
     with a distributed team.
-    
     I was responsible, first of all, for the extension of the graph filtering
     support. Secondly, I was responsible for adding the infrastructure
     needed to support NULL properties.
-    
-    Finally, I did system benchmarks with TPC-H and compared the results
+    Finally, I benchmarked the system with TPC-H and compared the results
     with BD ORACLE.
     
     Technologies: C++, CMake, GDB, Java, Google Test, Python scripting, Shell
@@ -49,7 +46,7 @@ Computer networking | Socket programming | Computer architecture | Distributed s
 ## Education
 
 From September 2015 to September 2020
-* Software engineering *École nationale des sciences appliquées (ENSA)* **Khouribga**, **Morocco**
+* Software engineering **École nationale des sciences appliquées (ENSA)** *Khouribga*, *Morocco*
 
     A five years degree, where you get to learn many aspects of software
     engineering from theory to application.
@@ -91,21 +88,20 @@ November 2018
 
 From February 2019 to April 2019
 
-* Software developer *ENSA Khouribga* **Khouribga**, **Morocco**
+* Software developer **ENSA Khouribga** *Khouribga*, *Morocco*
 
-    I was in charge of developing and supervising a
-    programming competition related to one of our University events. Where
+    I was in charge of developing and supervising a programming [competition](https://www.hackerrank.com/battlecode-01) related to one of our University events. Where
     I created algorithmic problems and their corresponding checkers, using
     C++ to score the 25 participant teams' submissions automatically.
 
 ## Languages
 
-* **Arabic :** Native
+* **Arabic:**   Native
 
-* **Spanish:** Bilingual proficiency
+* **Spanish:**  Bilingual proficiency
 
-* **French :** Professional working proficiency
+* **French:**   Professional working proficiency
 
-* **English:** Professional working proficiency
+* **English:**  Professional working proficiency
 
-* **Catalan:** Elemntary proficiency
+* **Catalan:**  Elemntary proficiency
