@@ -13,7 +13,7 @@ categories: author
     <button class="btn"><i class="fa fa-download"></i> Download CV </button>
 </a>
 
-<center><img src="../images/profile.png" width="160" height="200"   alt="Avatar"></center>
+<center><img src="../images/profile.png" width="160" height="200" style="border-radius: 30%;"  alt="Avatar"></center>
 
 <center> <h2>Mohammed Amine Maghous</h2> </center>
 ---------------------------
