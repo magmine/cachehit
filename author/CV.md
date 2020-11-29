@@ -26,13 +26,13 @@ I'm a C++ software engineer, passionate about performance, computer architecture
 From February 2020 to August 2020
 * Research assistant / C++ software engineering intern **ORACLE LABS** *Casablanca*, *Morocco*
 
-    I worked on a highly parallel and distributed graph processing system,
+    I worked on a highly parallel and distributed graph processing system written in modern C++,
     with a distributed team.
     I was responsible, first of all, for the extension of the graph filtering
     support. Secondly, I was responsible for adding the infrastructure
     needed to support NULL properties.
     Finally, I benchmarked the system with TPC-H and compared the results
-    with BD ORACLE.
+    with ORACLE DB.
     
     Technologies: C++, CMake, GDB, Java, Google Test, Python scripting, Shell
     scripting, SLURM, Linux, Jenkins, Multithreading.
@@ -44,12 +44,12 @@ C++ | STL | C | Shell scripting | GIT | Linux
 
 - **Experienced with:**
 
-Make | CMake | GDB | OOP | JAVA | Python scripting | Google test |
-Multithreading | Algorithms & Data structures | SLURM | Protobuff | SQL | SFML | UML.
+Make | CMake | GDB | OOP | JAVA | Python scripting | Google test | Bazel
+Multithreading | Algorithms & Data structures | SLURM | Protobuff | SQL | SFML | UML
 
 - **Familiar with:**
 
-Computer networking | Socket programming | Computer architecture | Distributed systems | Oracle DB | Jenkins | Docker.
+Computer networking | Socket programming | Computer architecture | Distributed systems | Oracle DB | Jenkins | Docker
 
 ## Education
 
@@ -76,7 +76,7 @@ November 2018
     It's the first draft for a graph processing engine. I started this project due
     to my interest in algorithms and data structures.
     The system is currently partially multi-threaded, supports two algorithms,
-    and written in modern C++, you can find the code in github.
+    and written in modern C++.
 
 * **Libft (C library):**
 
@@ -89,8 +89,7 @@ November 2018
     This is an academic project, where I wrote a program in C, that will detect
     duplicates and typing errors of a given text file, for that we used the
     Levenshtein Distance, with an approximate threshold.
-    My main achievement was being the first to finish the project among 120
-    students.
+    I was the first to finish the project among 120 students.
 
 ## Voluntary experience
 
@@ -112,4 +111,4 @@ From February 2019 to April 2019
 
 * **English:**  Professional working proficiency
 
-* **Catalan:**  Elemntary proficiency
+* **Catalan:**  Elementary proficiency
