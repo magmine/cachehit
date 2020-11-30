@@ -26,14 +26,15 @@ I'm a C++ software engineer, passionate about performance, computer architecture
 From February 2020 to August 2020
 * Research assistant / C++ software engineering intern **ORACLE LABS** *Casablanca*, *Morocco*
 
-    I worked on a highly parallel and distributed graph processing system written in modern C++,
-    with a distributed team.
-    I was responsible, first of all, for the extension of the graph filtering
-    support. Secondly, I was responsible for adding the infrastructure
-    needed to support NULL properties.
-    Finally, I benchmarked the system with TPC-H and compared the results
-    with ORACLE DB.
+    I worked on a highly parallel and distributed graph processing system, with a
+    distributed team.
     
+    My main responsibilities consisted of designing and implementing new features
+    using C++ mainly in a scrum environment, but I had to interact with other
+    technologies like Java. On the other hand, I had also the opportunity to
+    benchmark the system with TPC-H, where I managed multiple machines using
+    SLURM and automated some tests using Python and the Shell.
+
     Technologies: C++, CMake, GDB, Java, Google Test, Python scripting, Shell
     scripting, SLURM, Linux, Jenkins, Multithreading.
 
