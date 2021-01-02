@@ -60,6 +60,11 @@ From September 2015 to September 2020
     A five years degree, where you get to learn many aspects of software
     engineering from theory to application.
 
+From October 2018 to Mai 2019
+* Software engineering **1337 future is loading (42 Network)** *Khouribga*, *Morocco*
+
+    A programming school, based on projects and peer learning
+
 ## Awards & honors
 
 November 2018
@@ -69,6 +74,14 @@ November 2018
     teams).
     The competition focuses on efficiently solving algorithmic problems
     using a programming language of choice in the shortest time possible.
+
+* **ACM ACPC** *(Arab Collegiate Programming Contest)*
+
+    61th position among the best 120 University teams from all the arab region.
+
+* **MCC** *(Maghreb Coding Challeng)*
+
+    Second position, amongst Moroccan teams and 5th among the teams of all other countries (about 100 teams from Tunisia, Algeria, Morocco).
 
 ## Projects
 
