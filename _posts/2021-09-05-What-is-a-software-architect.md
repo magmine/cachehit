@@ -28,6 +28,8 @@ Software architects have many responsabilities aside fom programming:
 
     6-   They develop their teams architecture skills
 
+![Software architect role](../images/WhoIsASoftwareArchitect.png)
+
 Lets deep diver into what a software architect do:
 
 ### 1-  Define the problem from an engineering perspective
@@ -52,7 +54,9 @@ Every Software system lives in the context of a bigger world
 -   The hardware it runs on
 -   The purpose of the software
 
-![The big picture of a Software system](SoftwareEngineering\DesignIt\Ch01_Become-a-Software-Architect\WhoIsASoftwareArchitect.png)
+![The big picture of q software system](../images/SoftwareContext-DesignIt.png)
+
+<!-- <img src="../images/LinkedinProfile.jpg" width="160" height="200" style="border-radius: 30%;"  alt="Avatar"> -->
 ### 4- Decide Trade-offs among quality attributes
 
 -   Example of a quality attribute is **high avalaibility**
@@ -89,11 +93,29 @@ To create a structure, take any element and connect it to another element using 
 -   In this article we will define three types of elements and relations (**modules**, **Component and Connector C&C**, **Allocations**)
 
 Lets define each one of these three elements:
-| | Example Elements | Example Relations |
-| ------------- | ------------ | ----------- |
-| Modules | class, package, layer, module, configuration file, database table | uses, allowed to use, depends on |
-| Component & connector | object, connection, thread, process, tier, filter | call, pipe, pulish, subscribe, return |
-| Allocations | server, sensor, laptop, load balancer, team, A person, Docker container) | runs in/on, responsible for, develops, stores, pays for |
+
+<table style="width:100%">
+  <tr>
+  	<th></th>
+    <th>Example Elements</th>
+    <th>Example Relations</th>
+  </tr>
+  <tr>
+    <td>Modules</td>
+    <td>class, package, layer, module, configuration file, database table</td>
+    <td>uses, allowed to use, depends on</td>
+  </tr>
+  <tr>
+    <td>Component & connector</td>
+    <td>object, connection, thread, process, tier, filter</td>
+    <td>call, pipe, pulish, subscribe, return</td>
+  </tr>
+  <tr>
+    <td>Allocations</td>
+    <td>server, sensor, laptop, load balancer, team, A person, Docker container)</td>
+    <td>runs in/on, responsible for, develops, stores, pays for</td>
+  </tr>
+</table>
 
 -   **Module**:
     -   Elements that exist at design time
