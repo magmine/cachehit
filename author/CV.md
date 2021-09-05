@@ -13,45 +13,42 @@ categories: author
     <button class="btn"><i class="fa fa-download"></i> Download CV </button>
 </a>
 
-<center><img src="../images/profile.png" width="160" height="200" style="border-radius: 30%;"  alt="Avatar"></center>
+<center><img src="../images/LinkedinProfile.jpg" width="160" height="200" style="border-radius: 30%;"  alt="Avatar"></center>
 
 <center> <h2>Mohammed Amine Maghous</h2> </center>
 ---------------------------
 
 ## About
-I'm a C++ software engineer, passionate about performance, computer architecture and building things from the ground up.
+I'm a software engineer, passionate about building performant, scalable, maintainable and secure software
 
 ## Work experience
 
-From February 2020 to August 2020
-* Research assistant / C++ software engineering intern **ORACLE LABS** *Casablanca*, *Morocco*
+### From January 2021
+* Software engineer, SII GROUP **SII GROUP** *Casablanca*, *Mororcco*
+- Leading the development of a Node.js library that transforms EDI (Electronic Data Interchange) files to corresponding JSON files.
+- The library is integrated with node-red
+- The library can process hundreds of EDI files per second
+- Currently working on a UI to visualize the processed EDI data  using Spring and ReactJS
 
-    I worked on a highly parallel and distributed graph processing system, with a
-    distributed team.
-    
-    My main responsibilities consisted of designing and implementing new features
-    using C++ mainly in a scrum environment, but I had to interact with other
-    technologies like Java. On the other hand, I had also the opportunity to
-    benchmark the system with TPC-H, where I managed multiple machines using
-    SLURM and automated some tests using Python and the Shell.
+### From February 2020 to August 2020
+* Research assistant / C++ software engineering intern, **ORACLE LABS** *Casablanca*, *Morocco*
 
-    Technologies: C++, CMake, GDB, Java, Google Test, Python scripting, Shell
-    scripting, SLURM, Linux, Jenkins, Multithreading.
+- I worked on a highly parallel and distributed graph processing system (PGX Distributed) written in modern C++.
+- I collaborated on this project by adding new features, like:
+    - Support for NULL properties in frames(The result of a graph query).
+    - Filtering a graph (to create a sub-graph) based on a collection of IDs and the inverse operation.
+- I've also benchmarked the system using TPC-H to compare the results with Oracle in-memory database, in a cluster of more than 100 powerful machines manipulated using SLURM.
+- Wrote and enhanced Python and shell scripts to automate some of the benchmarking tasks. This resulted in an average 30% improvement on time spent on the benchmarks.
+
+Technologies: C++, CMake, GDB, Java, Google Test, Python scripting, Shell scripting, SLURM, Linux, Jenkins, Multithreading.
 
 ## Skills
-- **Proficient in:** 
-
-C++ | STL | C | Shell scripting | GIT | Linux
 
 - **Experienced with:**
-
-Make | CMake | GDB | OOP | JAVA | Python scripting | Google test | Bazel
-Multithreading | Algorithms & Data structures | SLURM | Protobuff | SQL | SFML | UML
+JavaScript | Java | C++ | STL | C | Python | ReactJS | Docker | Jenkins | Spring | Linux | Shell scripting | GIT | Multithreading | Algorithms & Data structures | MariaDB | SQL | Make | GDB | OOP  | Google Test | SLURM | Jira.
 
 - **Familiar with:**
-
-Computer networking | Socket programming | Computer architecture | Distributed systems | Oracle DB | Jenkins | Docker
-
+Bazel | Ansible | Make | CMake | Socket programming | Computer architecture | Distributed systems | Oracle DB | Protobuff | TCP / IP.
 ## Education
 
 From September 2015 to September 2020
@@ -85,18 +82,17 @@ November 2018
 
 ## Projects
 
+
+* **Language detector:**
+    An app that detects the language of a text submitted by a user. Language words are stocked in a DAWG( Directed Acyclic Word Graph) to reduce memory footprint and have faster word search.
+    Technologies : Python / Django / Django Rest in the backend and JavaScript / ReactJS in the frontend.
+
 * **Graph processor:**
 
     It's the first draft for a graph processing engine. I started this project due
     to my interest in algorithms and data structures.
     The system is currently partially multi-threaded, supports two algorithms,
     and written in modern C++.
-
-* **Libft (C library):**
-
-    A static library where I reimplement many functions in libc (atoi(), strnstr
-    ...etc.) using just some primitive system calls like free(), malloc(), read() and
-    write().
 
 * **Typing corrector:**
 
