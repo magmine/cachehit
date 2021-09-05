@@ -24,7 +24,7 @@ I'm a software engineer, passionate about building performant, scalable, maintai
 ## Work experience
 
 ### From January 2021
-* Software engineer, SII GROUP **SII GROUP** *Casablanca*, *Mororcco*
+* Software engineer, **SII GROUP** *Casablanca*, *Mororcco*
 - Leading the development of a Node.js library that transforms EDI (Electronic Data Interchange) files to corresponding JSON files.
 - The library is integrated with node-red
 - The library can process hundreds of EDI files per second
