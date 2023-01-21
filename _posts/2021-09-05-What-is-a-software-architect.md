@@ -28,7 +28,7 @@ Software architects have many responsabilities aside fom programming:
 
     6-   They develop their teams architecture skills
 
-![Software architect role](../images/WhoIsASoftwareArchitect.png)
+![Software architect role](WhoIsASoftwareArchitect.png)
 
 Lets deep diver into what a software architect do:
 
@@ -54,7 +54,7 @@ Every Software system lives in the context of a bigger world
 -   The hardware it runs on
 -   The purpose of the software
 
-![The big picture of a software system](../images/SoftwareContext-DesignIt.png)
+![The big picture of a software system](images/SoftwareContext-DesignIt.png)
 
 <!-- <img src="../images/LinkedinProfile.jpg" width="160" height="200" style="border-radius: 30%;"  alt="Avatar"> -->
 ### 4- Decide Trade-offs among quality attributes
