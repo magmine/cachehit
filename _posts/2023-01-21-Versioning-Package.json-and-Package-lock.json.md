@@ -12,126 +12,128 @@ One issue that package-lock.json addresses is the use of suffixes such as `^` an
 
 ### Example of package.json and package-lock.json
 - Package.json
-```json
-{
-  "name": "my-project",
-  "version": "1.3.0", <!--- This is the version of the project, 1 major version, 3 is the minor versions, 0 is the patch version --->
-  "dependencies": {
-    "lodash": "^4.17.21", <!--- This is the version of the lodash package, 4 major version, 17 minor versions, 21 patches, the ^ means that the minor version can be updated --->
-    
-    "moment": "~2.29.1" <!--- This is the version of the moment package, 2 major version, 29 minor versions, 1 patch. The ~ means that the patch version can be updated --->
-  }
-}
-```
+    ```json
+    {
+    "name": "my-project",
+    "version": "1.3.0", // This is the version of the project, 1 major version, 3 is the minor versions, 0 is the patch version
+    "dependencies": {
+        "lodash": "^4.17.21", // This is the version of the lodash package, 4 major version, 17 minor versions, 21 patches, the ^ means that the minor version can be updated
+        
+        "moment": "~2.29.1" // This is the version of the moment package, 2 major version, 29 minor versions, 1 patch. The ~ means that the patch version can be updated
+    }
+    }
+    ```
 - Existing package-lock.json
 
-```json
-{
-  "name": "my-project",
-  "version": "1.3.0",
-  "lockfileVersion": 2,
-  "requires": true,
-  "dependencies": {
-    "lodash": {
-      "version": "4.17.21",
-      ...
-      ...
-    },
-    "moment": {
-      "version": "2.29.1",
-      ...
-      ...
+    ```json
+    {
+    "name": "my-project",
+    "version": "1.3.0",
+    "lockfileVersion": 2,
+    "requires": true,
+    "dependencies": {
+        "lodash": {
+        "version": "4.17.21",
+        ...
+        ...
+        },
+        "moment": {
+        "version": "2.29.1",
+        ...
+        ...
+        }
     }
-  }
-}
-```
+    }
+    ```
 
 - Package-lock.json when running npm install (Note that the versions of the packages are different from the versions specified in package.json)
 
-```json
-{
-  "name": "my-project",
-  "version": "1.3.0",
-  "lockfileVersion": 2,
-  "requires": true,
-  "dependencies": {
-    "lodash": {
-      "version": "4.18.21", <!--- The actual version of the lodash package that was installed after running npm install, 4.18.21 is the latest version of lodash when npm install was run --->
-      ...
-      ...
-    },
-    "moment": {
-      "version": "2.29.3", <!--- The actual version of the moment package that was installed after running npm install, 2.29.3 is the latest version of moment when npm install was run --->
-      ...
-      ...
+    ```json
+    {
+    "name": "my-project",
+    "version": "1.3.0",
+    "lockfileVersion": 2,
+    "requires": true,
+    "dependencies": {
+        "lodash": {
+        "version": "4.18.21", // The actual version of the lodash package that was installed after running npm install, 4.18.21 is the latest version of lodash when npm install was run
+        ...
+        ...
+        },
+        "moment": {
+        "version": "2.29.3", // The actual version of the moment package that was installed after running npm install, 2.29.3 is the latest version of moment when npm install was run
+        ...
+        ...
+        }
     }
-  }
-}
-```
+    }
+    ```
 
 To ensure that the correct versions of packages are installed, it is recommended to use `npm ci` instead of `npm install`. `npm ci` stands for "clean install" and it will always respect the versions specified in the package-lock.json file. If package-lock.json is not present, `npm ci` will throw an error.
 
 ### Example using npm ci
 - Package.json
 
-```json
-{
-  "name": "my-project",
-  "version": "1.3.0",
-  "dependencies": {
-    "lodash": "^4.17.21",
-    
-    "moment": "~2.29.1"
-  }
-}
-```
+    ```json
+    {
+    "name": "my-project",
+    "version": "1.3.0",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        
+        "moment": "~2.29.1"
+    }
+    }
+    ```
 - Existing package-lock.json
 
-```json
-{
-  "name": "my-project",
-  "version": "1.3.0",
-  "lockfileVersion": 2,
-  "requires": true,
-  "dependencies": {
-    "lodash": {
-      "version": "4.17.21",
-      ...
-      ...
-    },
-    "moment": {
-      "version": "2.29.1",
-      ...
-      ...
+    ```json
+    {
+    "name": "my-project",
+    "version": "1.3.0",
+    "lockfileVersion": 2,
+    "requires": true,
+    "dependencies": {
+        "lodash": {
+        "version": "4.17.21",
+        ...
+        ...
+        },
+        "moment": {
+        "version": "2.29.1",
+        ...
+        ...
+        }
     }
-  }
-}
-```
+    }
+    ```
 - New package-lock.json after running `npm ci` (note that the versions of lodash and moment are the same as the existing package-lock.json)
 
-```json
-{
-  "name": "my-project",
-  "version": "1.3.0",
-  "lockfileVersion": 2,
-  "requires": true,
-  "dependencies": {
-    "lodash": {
-      "version": "4.17.21",
-      ...
-      ...
-    },
-    "moment": {
-      "version": "2.29.1",
-      ...
-      ...
+    ```json
+    {
+    "name": "my-project",
+    "version": "1.3.0",
+    "lockfileVersion": 2,
+    "requires": true,
+    "dependencies": {
+        "lodash": {
+        "version": "4.17.21",
+        ...
+        ...
+        },
+        "moment": {
+        "version": "2.29.1",
+        ...
+        ...
+        }
     }
-  }
-}
-```
+    }
+    ```
 - If no package-lock.json is present, running `npm ci` will throw an error
 
-> **Error**:</br>npm <span style="color:red">WARN</span> prepare removing existing node_modules/ before installation</br>npm <span style="color:red">ERR!</span> cipm can only install packages with an existing package-lock.json or npm-shrinkwrap.json with lockfileVersion >= 1. Run an install with npm@5 or later to generate it, then try again..
+    > npm <span style="color:red">WARN</span> prepare removing existing node_modules/ before installation
+
+    > npm <span style="color:red">ERR!</span> cipm can only install packages with an existing package-lock.json or npm-shrinkwrap.json with lockfileVersion >= 1. Run an install with npm@5 or later to generate it, then try again..
 
 ### Versioning convention in software engineering
 
