@@ -2,7 +2,7 @@
 layout: post
 title:  "Managing Dependencies and Versioning in JavaScript Projects with package-lock.json"
 date:   2023-01-22 13:10:28 +0100
-categories: JavaScript, NoeJS, Node, NPM, Package.json, Package-lock.json
+categories: JavaScript, Web Development
 desc: ""
 ---
 
