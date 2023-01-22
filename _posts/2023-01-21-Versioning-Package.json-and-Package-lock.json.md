@@ -15,11 +15,11 @@ One issue that package-lock.json addresses is the use of suffixes such as `^` an
 ```json
 {
   "name": "my-project",
-  "version": "1.3.0", // <--- This is the version of the project, 1 major version, 3 is the minor versions, 0 is the patch version
+  "version": "1.3.0", <!--- This is the version of the project, 1 major version, 3 is the minor versions, 0 is the patch version --->
   "dependencies": {
-    "lodash": "^4.17.21", // <--- This is the version of the lodash package, 4 major version, 17 minor versions, 21 patches, the ^ means that the minor version can be updated
+    "lodash": "^4.17.21", <!--- This is the version of the lodash package, 4 major version, 17 minor versions, 21 patches, the ^ means that the minor version can be updated --->
     
-    "moment": "~2.29.1" // <--- This is the version of the moment package, 2 major version, 29 minor versions, 1 patch. The ~ means that the patch version can be updated
+    "moment": "~2.29.1" <!--- This is the version of the moment package, 2 major version, 29 minor versions, 1 patch. The ~ means that the patch version can be updated --->
   }
 }
 ```
@@ -56,12 +56,12 @@ One issue that package-lock.json addresses is the use of suffixes such as `^` an
   "requires": true,
   "dependencies": {
     "lodash": {
-      "version": "4.18.21", // <-- The actual version of the lodash package that was installed after running npm install, 4.18.21 is the latest version of lodash when npm install was run
+      "version": "4.18.21", <!--- The actual version of the lodash package that was installed after running npm install, 4.18.21 is the latest version of lodash when npm install was run --->
       ...
       ...
     },
     "moment": {
-      "version": "2.29.3", // <-- The actual version of the moment package that was installed after running npm install, 2.29.3 is the latest version of moment when npm install was run
+      "version": "2.29.3", <!--- The actual version of the moment package that was installed after running npm install, 2.29.3 is the latest version of moment when npm install was run --->
       ...
       ...
     }
